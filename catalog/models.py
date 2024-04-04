@@ -87,7 +87,6 @@ class BookInstance(models.Model):
         default='m',
         help_text='Book availability',
     )
-
     class Meta:
         ordering = ['due_back']
 
